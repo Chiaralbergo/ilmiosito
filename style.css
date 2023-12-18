@@ -1,0 +1,32 @@
+
+/*la cacca rosa*/
+h4 {
+    background-color: darkturquoise;
+    color: crimson;
+    font-size: 60px;
+}
+
+body{
+    /*color: rgb(44, 231, 77)*/
+    color: rgba(228, 11, 40, 0.5);
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+
+
+}
+
+a{
+    color: rgb(132, 18, 132);
+    text-decoration: overline;
+}
+
+a:hover {
+    color: rgb(217, 94, 5);
+    text-decoration: underline;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+
