@@ -8,9 +8,9 @@ h4 {
 
 body{
     /*color: rgb(44, 231, 77)*/
-    color: rgba(0, 0, 0, 0.5)
-    font-family: 'HalyardDis_ISIAU Bk';
-    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'HalyardDis_ISIAU Bk', Arial, sans-serif;
+    font-size: 28px;
   
 
 }
@@ -25,8 +25,12 @@ a:hover {
     text-decoration: underline;
     font-weight: 700;
     font-style: italic;
+
+
+
+
 }
 
-
-
+div {   color: rgb(0, 0, 0);
+}
 
