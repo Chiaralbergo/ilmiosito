@@ -1,14 +1,14 @@
 
 /*la cacca rosa*/
 h4 {
-    background-color: darkturquoise;
+    background-color: rgb(0, 0, 209);
     color: crimson;
     font-size: 60px;
 }
 
 body{
     /*color: rgb(44, 231, 77)*/
-    color: rgba(228, 11, 40, 0.5);
+    color: rgba(145, 142, 54, 0.5);
     font-family: 'HalyardDis_ISIAU Bk';
     font-size: 30px;
 
