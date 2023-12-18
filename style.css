@@ -17,7 +17,7 @@ body{
 
 a{
     color: rgb(0, 0, 0);
-
+border: 1px solid black; /*shorthand*/
 }
 
 a:hover {
