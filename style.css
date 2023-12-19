@@ -3,21 +3,26 @@
 h4 {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    font-size: 60px;
+    font-size: 25px;
 }
 
 body{
     /*color: rgb(44, 231, 77)*/
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0);
     font-family: 'HalyardDis_ISIAU Bk', Arial, sans-serif;
-    font-size: 28px;
+    font-size: 16px;
     display: flex;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    height: 100vh; /*viewport height*/
+    overflow-y: hidden;
 
 }
 
 a{
     color: rgb(0, 0, 0);
-border: 1px solid black; /*shorthand*/
+    border: 1px solid black; /*shorthand*/
 }
 
 a:hover {
@@ -28,14 +33,51 @@ a:hover {
 }
 
 
-div {   color: rgb(0, 0, 0);
-}
-
 a:visited {
     color: grey;
-text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 
+
+div {   color: rgb(0, 0, 0);
+  width: 20%;  
+  padding: 0 5px 0 5px;  /*top right bottom left*/
+  overflow-y: scroll;
+}
+
+
+div.uno, div.due, div.tre, div.quattro {
+   border-right: 1px solid black;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+
+h3 {
+    margin: 0;
+    font-size: 1.3em; /*21:16*/
+    font-weight: normal;
+    position: fixed;
+    background-color: white;
+    width: calc(20% - 10px);
+}
+
+div.due time {
+    font-size: 1.18em;  /*19:16*/
+}
+
+div.seraratore {
+      margin-top: 30px;
+}
+
+/*il codice che segue vaòe per tutti gli schermi la cui larghezza max è 420px*/
+@media screen and (max-width: 420px) {   
+    body  {background-color: lime;}
+}
 
 
