@@ -11,7 +11,7 @@ body{
     color: rgba(0, 0, 0, 0.5);
     font-family: 'HalyardDis_ISIAU Bk', Arial, sans-serif;
     font-size: 28px;
-  
+    display: flex;
 
 }
 
@@ -25,12 +25,17 @@ a:hover {
     text-decoration: underline;
     font-weight: 700;
     font-style: italic;
-
-
-
-
 }
+
 
 div {   color: rgb(0, 0, 0);
 }
+
+a:visited {
+    color: grey;
+text-decoration: line-through;
+}
+
+
+
 
